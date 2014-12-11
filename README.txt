@@ -15,4 +15,4 @@ INSTALLATION
     npm install qlik-auth-example
 
 RUNNING
-	node app.js
+    node app.js
