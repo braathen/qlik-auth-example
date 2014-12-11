@@ -1,0 +1,30 @@
+{
+  "name": "qlik-auth-example",
+  "version": "1.0.0",
+  "description": "A minimal example demonstrating how to get started with the qlik-auth module for Qlik Sense and QlikView",
+  "main": "app.js",
+  "author": "Rikard Braathen",
+  "license": "MIT",
+  "dependencies": {
+    "qlik-auth": ">= 1.0.0",
+  },
+  "engine": "node >= 0.4.0",
+  "keywords": [
+    "qlik",
+    "qlikview",
+    "sense",
+    "saml",
+    "ticket",
+    "webticket",
+    "custom",
+    "authentiction"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/braathen/qlik-auth-example.git"
+  },
+  "homepage": "https://github.com/braathen/qlik-auth-example",
+  "bugs": {
+    "url": "https://github.com/braathen/qlik-auth-example/issues"
+  }
+}
