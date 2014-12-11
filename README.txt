@@ -9,10 +9,3 @@ WHAT IS QLIK-AUTH-EXAMPLE?
 REQUIREMENTS
 
  - Node.js (including npm) <https://nodejs.org>
-
-INSTALLATION
-
-    npm install qlik-auth-example
-
-RUNNING
-    node app.js
