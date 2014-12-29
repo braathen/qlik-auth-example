@@ -9,14 +9,15 @@ var http = require('http');
 var qlikauth = require('qlik-auth');
 http.createServer(function (req, res) {
 
-    //Define user directory, user identity and attributes
-    var profile = {
-        'UserDirectory': 'QLIK',
-        'UserId': 'rikard',
-        'Attributes': []
-    }
+  //Define user directory, user identity and attributes
+  var profile = {
+    'UserDirectory': 'QLIK', 
+    'UserId': 'rikard',
+    'Attributes': []
+  }
 
-    //Make call for ticket request
-    qlikauth.requestTicket(req, res, profile);
+  //Make call for ticket request
+  qlikauth.requestTicket(req, res, profile);
+
 }).listen(1337, '0.0.0.0');
 console.log('Server running at http://localhost:1337/');

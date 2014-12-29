@@ -2,11 +2,10 @@
   "name": "qlik-auth-example",
   "version": "1.0.0",
   "description": "A minimal example demonstrating how to get started with the qlik-auth module for Qlik Sense and QlikView",
-  "main": "app.js",
   "author": "Rikard Braathen",
   "license": "MIT",
   "dependencies": {
-    "qlik-auth": ">= 1.0.0",
+    "qlik-auth": ">= 1.0.0"
   },
   "engine": "node >= 0.4.0",
   "keywords": [
