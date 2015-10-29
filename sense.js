@@ -13,7 +13,7 @@ http.createServer(function (req, res) {
   var profile = {
     'UserDirectory': 'QLIK', 
     'UserId': 'rikard',
-    'Attributes': [{ 'Group':'EnterpriseArchitects', 'Group':'Presales' }]
+    'Attributes': [{ 'Group':'EnterpriseArchitects', 'Group':'Presales', 'Country':'Sweden' }]
   }
 
   //Make call for ticket request
